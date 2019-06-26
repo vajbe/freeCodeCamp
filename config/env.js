@@ -1,9 +1,15 @@
 const path = require('path');
 
-if (process.env.NODE_ENV !== 'production') {
-  const envPath = path.resolve(__dirname, '../.env');
-  require('dotenv').config({ path: envPath });
+if (process.env.NODE_ENV === 'production') {
+  console.log('\n');
+  console.log('<---------------------------------------------------------->');
+  console.log('| PRODUCTION mode, be mindful of the environment variables |');
+  console.log('<---------------------------------------------------------->');
+  console.log('\n');
 }
+
+const envPath = path.resolve(__dirname, '../.env');
+require('dotenv').config({ path: envPath });
 
 const {
   HOME_LOCATION: home,
