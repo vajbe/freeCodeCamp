@@ -39,7 +39,7 @@
     "lodash": "^4.17.11",
     "loop-protect": "^2.1.6",
     "monaco-editor-webpack-plugin": "^1.7.0",
-    "nanoid": "^1.2.2",
+    "nanoid": "^3.1.31",
     "prismjs": "^1.16.0",
     "query-string": "^6.8.0",
     "react": "^16.8.6",
