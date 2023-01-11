@@ -34,7 +34,7 @@
     "gatsby-plugin-sitemap": "^2.2.0",
     "gatsby-remark-prismjs": "^3.3.0",
     "gatsby-source-filesystem": "^2.1.0",
-    "gatsby-transformer-remark": "^2.5.0",
+    "gatsby-transformer-remark": "^5.25.1",
     "jquery": "^3.4.1",
     "lodash": "^4.17.11",
     "loop-protect": "^2.1.6",
